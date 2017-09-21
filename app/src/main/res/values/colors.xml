@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="purple">#887CD9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#B2E5B1</color>
+    <color name="red">#E94D66</color>
+    <color name="yellow">#EFCA7F</color>
+
+    <color name="qmui_config_color_blue">#1B88EE</color>
+    <color name="qmui_config_color_50_blue">#801B88EE</color>
+</resources>

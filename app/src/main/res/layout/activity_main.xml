@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.graypn.roundbutton.RoundButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="自适应圆角"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/purple"
+        app:isRadiusAdjustBounds="true"/>
+
+    <com.graypn.roundbutton.RoundButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="自自定圆角"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/purple"
+        app:radius="10dp"/>
+
+    <com.graypn.roundbutton.RoundButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="带边距的圆角"
+        android:textColor="@color/white"
+        app:backgroundColor="@color/purple"
+        app:borderColor="@color/green"
+        app:borderWidth="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <com.graypn.roundbutton.RoundButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:text="自定义"
+            android:textColor="@color/white"
+            app:backgroundColor="@color/purple"
+            app:radiusTopLeft="10dp"/>
+
+        <com.graypn.roundbutton.RoundButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:text="自定义"
+            android:textColor="@color/white"
+            app:backgroundColor="@color/green"
+            app:radiusTopRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <com.graypn.roundbutton.RoundButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:text="自定义"
+            android:textColor="@color/white"
+            app:backgroundColor="@color/red"
+            app:radiusBottomLeft="10dp"/>
+
+        <com.graypn.roundbutton.RoundButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="自定义"
+            android:textColor="@color/white"
+            app:backgroundColor="@color/yellow"
+            app:radiusBottomRight="10dp"/>
+    </LinearLayout>
+
+    <com.graypn.roundbutton.RoundButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="自定义"
+        android:textColor="@color/white"
+        app:backgroundColor="@drawable/bg_btn"
+        app:borderColor="@drawable/bg_btn_b"
+        app:borderWidth="5px"
+        app:isRadiusAdjustBounds="true"/>
+
+
+</LinearLayout>
