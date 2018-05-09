@@ -23,5 +23,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation project(':lib')
+    implementation project(':roundbutton')
+
+//    implementation 'com.youma.ui:roundbutton:1.0.0'
 }
