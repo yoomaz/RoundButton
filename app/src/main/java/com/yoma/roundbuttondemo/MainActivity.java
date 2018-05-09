@@ -1,4 +1,4 @@
-package com.graypn.roundbuttondemo;
+package com.yoma.roundbuttondemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

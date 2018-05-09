@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.graypn.roundbutton.RoundButton
+    <com.yoma.roundbutton.RoundButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
@@ -16,7 +16,7 @@
         app:backgroundColor="@color/purple"
         app:isRadiusAdjustBounds="true"/>
 
-    <com.graypn.roundbutton.RoundButton
+    <com.yoma.roundbutton.RoundButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
@@ -26,7 +26,7 @@
         app:backgroundColor="@color/purple"
         app:radius="10dp"/>
 
-    <com.graypn.roundbutton.RoundButton
+    <com.yoma.roundbutton.RoundButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
@@ -43,7 +43,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal">
 
-        <com.graypn.roundbutton.RoundButton
+        <com.yoma.roundbutton.RoundButton
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginRight="5dp"
@@ -52,7 +52,7 @@
             app:backgroundColor="@color/purple"
             app:radiusTopLeft="10dp"/>
 
-        <com.graypn.roundbutton.RoundButton
+        <com.yoma.roundbutton.RoundButton
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:padding="10dp"
@@ -68,7 +68,7 @@
         android:layout_marginTop="5dp"
         android:gravity="center_horizontal">
 
-        <com.graypn.roundbutton.RoundButton
+        <com.yoma.roundbutton.RoundButton
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginRight="5dp"
@@ -77,7 +77,7 @@
             app:backgroundColor="@color/red"
             app:radiusBottomLeft="10dp"/>
 
-        <com.graypn.roundbutton.RoundButton
+        <com.yoma.roundbutton.RoundButton
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="自定义"
@@ -86,7 +86,7 @@
             app:radiusBottomRight="10dp"/>
     </LinearLayout>
 
-    <com.graypn.roundbutton.RoundButton
+    <com.yoma.roundbutton.RoundButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
