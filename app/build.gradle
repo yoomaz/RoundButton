@@ -7,8 +7,8 @@ android {
         applicationId "com.yoma.roundbuttondemo"
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -23,7 +23,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation project(':roundbutton')
+//    implementation project(':roundbutton')
 
-//    implementation 'com.youma.ui:roundbutton:1.0.0'
+    implementation 'com.github.Graypn:RoundButton:1.0.0'
 }
